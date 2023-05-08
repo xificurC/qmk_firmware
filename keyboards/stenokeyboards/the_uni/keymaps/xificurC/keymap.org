@@ -156,8 +156,8 @@
 #+end_example
 
 #+name: LAYER_NSSL
-| I_PLUS | I_PRNO | I_PRNC  | I_SCLN  | EXT_PLV |   | KC_LSFT | KC_LCTL | KC_LALT | KC_LGUI |     |
-| I_EQL  | I_BRCO | I_BRCC  | I_COLN  | KC_MINS |   |         |         |         |         |     |
+| I_SCLN | I_PLUS | I_PRNO  | I_PRNC  | EXT_PLV |   | KC_LSFT | KC_LCTL | KC_LALT | KC_LGUI |     |
+| I_COLN | I_EQL  | I_BRCO  | I_BRCC  | KC_MINS |   |         |         |         |         |     |
 | N/A    | N/A    | KC_UNDS | KC_BSLS | KC_PIPE |   |         |         | N/A     | N/A     | N/A |
 
 #+CALL: GEN(LAYER=LAYER_NSSL, NAME="NSSL")
@@ -166,10 +166,10 @@
 #+begin_example
 [NSSL] = LAYOUT(
  /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/
-   I_PLUS         ,    I_PRNO         ,    I_PRNC         ,    I_SCLN         ,    EXT_PLV        ,    XXXXXXX        ,    KC_LSFT        ,    KC_LCTL        ,    KC_LALT        ,    KC_LGUI        ,    XXXXXXX        ,
+   I_SCLN         ,    I_PLUS         ,    I_PRNO         ,    I_PRNC         ,    EXT_PLV        ,    XXXXXXX        ,    KC_LSFT        ,    KC_LCTL        ,    KC_LALT        ,    KC_LGUI        ,    XXXXXXX        ,
  /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/
  /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/
-   I_EQL          ,    I_BRCO         ,    I_BRCC         ,    I_COLN         ,    KC_MINS        ,    XXXXXXX        ,    XXXXXXX        ,    XXXXXXX        ,    XXXXXXX        ,    XXXXXXX        ,    XXXXXXX        ,
+   I_COLN         ,    I_EQL          ,    I_BRCO         ,    I_BRCC         ,    KC_MINS        ,    XXXXXXX        ,    XXXXXXX        ,    XXXXXXX        ,    XXXXXXX        ,    XXXXXXX        ,    XXXXXXX        ,
  /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/
  /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/ /*---------------*/
                                            KC_UNDS        ,    KC_BSLS        ,    KC_PIPE        ,    XXXXXXX        ,    XXXXXXX        ,    XXXXXXX        ,
